@@ -1,4 +1,5 @@
 from setuptools import find_packages, setup
+from typing import List
 
 HYPEN_E_DOT='-e .'
 
@@ -23,5 +24,4 @@ author='RK',
 author_email='rk@gmail.com',
 packages=find_packages(),
 install_requires=get_requirements('requirements.txt')
-
 )
